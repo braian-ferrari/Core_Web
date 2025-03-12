@@ -480,6 +480,31 @@ footer{
   .container {
     padding: 10px;
   }
+  .whatsapp-icon {
+    width: 100px;
+    color: #25D366; /* Color verde de WhatsApp */
+    transition: transform 0.3s ease; 
+  }
+  .DescCompañia{
+    color: black;
+    text-align: start;
+    font-size: 14px;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+  }
+  .DescTrabajamos{
+    text-align: start;
+    font-size: 14px;
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+  
+  }
+  .imgCompañia{
+    margin-left: -1%;
+  }
 }
 @media screen and (max-width: 480px) {
   /* Estilos para teléfonos pequeños */
