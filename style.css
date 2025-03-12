@@ -222,9 +222,12 @@ footer{
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: black;
+  background-image: url(./images/servicios5.jpg);
+  background-repeat: no-repeat;
 }
 .tituloServ{
+  color: ;
+  text-shadow:  -2px 2px 5px #c1ff72;;
   margin-left: 35%;
   margin-top: 15%;
   margin-bottom: 15%;
