@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@400&display=swap');
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+
+
+
+}
+
+
+.menu {
+  margin-top: 5%;
+  width: auto;
+  display: flex;
+  height: 140px;
+  margin: 0 auto;
+  justify-content: space-between;
+  height: auto;
+  background-color: black;
+
+}
+
+.logo {
+  width: 200px;
+  margin-left: 60px;
+
+}
+
+
+h1 {
+  color: white;
+  font-size: 50px;
+  text-align: start;
+}
+
+p {
+  color: white;
+}
+
+.TituloHome {
+  width: 50%;
+  margin: 7%;
+}
+
+.containerSec1 {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.imagenHome {
+  width: 90%;
+  height: auto;
+  align-items: center;
+  margin-bottom: 2%;
+  margin-left: 7%;
+  
+}
+
+.sectionDos {
+  display: flex;
+  background-color: black;
+}
+.sectionTres{
+  display: flex;
+  justify-content: start;
+  margin-bottom: 50px;
+  background-color: black;
+}
+.descripcion{
+  text-align: start;
+  font-size: x-large;
+  width: 70%;
+  margin-left: 7%;
+}
+.botonDesc{
+  margin-top: 1%;
+  margin-left: 7%;
+  margin-bottom: 8%;
+  color: black;
+  background-color: white;
+  width: 40%;
+  border-radius: 80px;
+  font-size: large;
+  
+}
+.botonDesc:hover{
+  background-color: blue;
+  color: white;
+}
+
+.sectionCuatro{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+}
+.logoResting{
+  width: 200px;
+  margin-left: 15%;
+  margin-bottom: 12%;
+  
+}
+.logoMapu{
+  width: 200px;
+  margin-left: 15%;
+  margin-bottom: 12%;
+}
+.logoSakura{
+  width: 200px;
+  margin-left: 15%;
+  margin-bottom: 12%;
+  height: 250px;
+}
+.subClientes{
+  width: 30%;
+  font-size: 40px;
+  margin-left: 34.7%;
+  margin-top: 10%;
+  text-align: start;
+}
+.botonTrabajos{
+  margin-top: 3%;
+  margin-bottom: 12%;
+  background-color: black;
+  color: white;
+  border-radius: 80px;
+  width: 30%;
+  height: auto;
+  margin-left: -7%;
+}
+.botonTrabajos:hover{
+  background-color: blue;
+  color: white;
+}
+.sectionCinco{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+.botonContactoHome{
+  margin-left: 32%;
+  margin-top: 3%;
+  margin-bottom: 10%;
+  background-color: black;
+  color: white;
+  border-radius: 80px;
+  width: 25%;
+  height: auto;
+}
+.botonContactoHome:hover{
+  background-color: blue;
+  color: white;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+footer{
+  background-color: black;
+  color: white;
+}
+.iconos{
+ font-size: large;
+ margin-top: 3%;
+ margin-left: 50%;
+ margin-bottom: 5%;
+ 
+}
+.listaFooter{
+  font-size: large;
+ margin-top: 3%;
+ margin-bottom: 5%;
+}
+.subTrabajo{
+  margin-left: 32%;
+  margin-top: 12%;
+  margin-bottom: 5%;
+}
+
+.subTrabajoDos{
+  margin-left: 30%;
+  margin-top: 12%;
+  margin-bottom: 5%;
+}
+/* Estado inicial fuera de la vista */
+.scroll-element {
+  opacity: 0;
+  transform: translateY(50px); /* Baja el elemento */
+  transition: all 0.5s ease; /* Duración y tipo de transición */
+}
+
+/* Estado final cuando es visible */
+.scroll-element.show {
+  opacity: 1;
+  transform: translateY(0); /* Restaura su posición */
+}
+
+
+
+.secUnoServ{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+}
+.tituloServ{
+  margin-left: 35%;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+.secDosServ{
+  display: flex;
+ color: black;
+}
+.subTitServ{
+  color: black;
+  margin-bottom: 5%;
+  margin-top: 15%;
+}
+.DescServ{
+  color: black;
+  margin-bottom: 15%;
+}
+
+.imagenServ{
+  width: 90%;
+  height: auto;
+  align-items: center;
+  margin-left: 5%;
+  margin-bottom: 10%;
+  
+  margin-top: 10%;
+}
+
+.secTresServ{
+  display: flex;
+  background-color: black;
+}
+.secCuatroServ{
+  display: flex;
+ 
+}
+.subContactoServ{
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 10%;
+  
+}
+.botonContactoServ{
+  margin-left: 35%;
+  margin-top: 3%;
+  margin-bottom: 10%;
+  background-color: black;
+  color: white;
+  border-radius: 80px;
+  width: 25%;
+  height: auto;
+}
+.botonContactoServ:hover{
+  background-color: blue;
+  color: white;
+}
+
+.secUnoContac{
+  display: flex;
+  background-color: black;
+}
+.TituloContac{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.secDosContac{
+  display: flex;
+  background-color: black;
+  color: white;
+}
+.inputNombre{
+  width: 50%;
+  margin-left: 50.5%;
+}
+.labelNombre{
+  margin-left: 51%;
+}
+.labelApellido{
+  margin-left: 5%;
+}
+.inputApellido{
+  width: 50%;
+  margin-left: -1%;
+}
+.inputsContact{
+  width: 50%;
+  margin-left: 25%;
+}
+.labels{
+  margin-left: 25%;
+}
+.botonContactoContac{
+  margin-left: 37%;
+  margin-top: 3%;
+  margin-bottom: 10%;
+  background-color: black;
+  color: white;
+  border-radius: 80px;
+  width: 25%;
+  height: auto;
+}
+.sectionUnoCompañia{
+  background-color: black;
+  display: flex;
+}
+.tituloCompañia{
+  color: black;
+  width: 50%;
+  margin-left: 35%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.DescCompañia{
+  color: black;
+  text-align: start;
+  font-size: xx-large;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 10%;
+}
+.sectionTresCompañia{
+  background-color: black;
+  display: flex;
+  justify-content: start;
+  
+}
+.tituloTrabajamos{
+  color: white;
+  width: 50%;
+  
+  margin-left: 35%;
+  margin-top: 10%;
+}
+.DescTrabajamos{
+  text-align: start;
+  font-size: xx-large;
+  width: 70%;
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-bottom: 10%;
+
+}
+.imgCompañia{
+  margin-left: 18%;
+}
+
+.whatsapp-button {
+  position: fixed; /* Hace que el botón se quede fijo */
+  bottom: 20px; /* Distancia desde el fondo de la página */
+  right: 20px; /* Distancia desde el lado derecho de la página */
+  z-index: 999; /* Asegura que el botón esté encima de otros elementos */
+  background-color: transparent; /* Sin fondo */
+  border: none; /* Sin borde */
+  padding: 10px;
+}
+
+.whatsapp-icon {
+  width: 150px;
+  color: #25D366; /* Color verde de WhatsApp */
+  transition: transform 0.3s ease; 
+}
+
+.whatsapp-icon:hover {
+  transform: scale(1.1); /* Agrandar el ícono cuando se pasa el ratón */
+}
+@media screen and (max-width: 768px) {
+  /* Estilos para teléfonos celulares */
+  h1 {
+    font-size: 20px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  .TituloHome{
+    width: 70%;
+  }
+  .descripcion{
+    font-size: 14px;
+  }
+  .subClientes{
+    width: 70%;
+    font-size: 25px;
+    margin-left: 16.5%;
+  }
+  .botonDesc{
+    font-size: 14px;
+  }
+  .botonTrabajos{
+    font-size: 14px;
+  }
+  .botonContactoHome{
+    font-size: 14px;
+    margin-left: 32%;
+    
+  }
+  .subTrabajo{
+    margin-left: 30%;
+    
+  }
+  .subTrabajoDos{
+    width: 45%;
+    margin-left: 28%;
+  }
+  .iconos{
+    font-size: 15px;
+    margin-left: 35%;
+  }
+  .listaFooter{
+    font-size: 15px;
+    margin-left: 35%;
+  }
+  .logoResting{
+    width: 150px;
+    margin-left: 28%;
+    
+  }
+  .logoMapu{
+    width: 150px;
+
+    margin-left: 28%;
+  }
+  .logoSakura{
+    width: 150px;
+
+    margin-left: 28%;
+  }
+  .inputNombre{
+    margin-left: 25%;
+  }
+  .labelNombre{
+    margin-left: 25%;
+  }
+  .labelApellido{
+    margin-left: 25%;
+  }
+.inputApellido{
+  margin-left: 25%;
+}
+.TituloContac{
+  width: 80%;
+  margin-left: 15%;
+}
+.tituloServ{
+  margin-left: 25%;
+}
+.subContactoServ{
+  width: 80%;
+  margin-left: 15%;
+}
+.imagenServ{
+  width: 100%;
+  margin-left: 0.2% ;
+  height: auto;
+}
+
+  .container {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* Estilos para teléfonos pequeños */
+  body {
+    font-size: 12px;
+  }
+
+  .container {
+    padding: 5px;
+  }
+}
