@@ -51,6 +51,7 @@ p {
 .TituloHome {
   width: 50%;
   margin: 7%;
+  text-shadow:  -2px 2px 5px #c1ff72;
 }
 
 .containerSec1 {
@@ -226,8 +227,7 @@ footer{
   background-repeat: no-repeat;
 }
 .tituloServ{
-  color: ;
-  text-shadow:  -2px 2px 5px #c1ff72;;
+  text-shadow:  -2px 2px 5px #c1ff72;
   margin-left: 35%;
   margin-top: 15%;
   margin-bottom: 15%;
@@ -296,6 +296,7 @@ footer{
   margin-left: 25%;
   margin-top: 10%;
   margin-bottom: 10%;
+  text-shadow:  -2px 2px 5px #c1ff72;
 }
 
 .secDosContac{
@@ -350,6 +351,7 @@ footer{
   margin-left: 35%;
   margin-top: 10%;
   margin-bottom: 5%;
+  text-shadow:  -2px 2px 5px #c1ff72;
 }
 .DescCompañia{
   color: black;
@@ -368,7 +370,7 @@ footer{
 .tituloTrabajamos{
   color: white;
   width: 50%;
-
+  text-shadow:  -2px 2px 5px #c1ff72;
   margin-left: 35%;
   margin-top: 10%;
 }
@@ -491,13 +493,7 @@ footer{
   width: 80%;
   margin-left: 15%;
 }
-.imagenServ{
-  width: 100%;
-  margin-left: 0.2% ;
-  height: auto;
-}
-
-  .container {
+.container {
     padding: 10px;
   }
   .whatsapp-icon {
@@ -530,6 +526,9 @@ margin-left: 25%;
   }
   .tituloCompañia{
     margin-left: 25%;
+  }
+  .secUnoServ{
+    background-color: black;
   }
 }
 @media screen and (max-width: 480px) {
