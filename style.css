@@ -251,8 +251,12 @@ footer{
   background-size: cover;  /* Hace que la imagen cubra todo el contenedor */
   background-position: center; /* Centra la imagen */
   width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
-  
+   /* Filtro oscuro sobre la imagen de fondo */
+   background-color: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad según necesites */
+   background-blend-mode: multiply; /* Mezcla los colores para oscurecer */
+ 
 }
+
 .tituloServ{
   text-shadow:  -2px 2px 5px #c1ff72;
   margin-left: 35%;
@@ -316,7 +320,18 @@ footer{
 
 .secUnoContac{
   display: flex;
-  background-color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+
+  /* Fondo con imagen y gradiente para el difuminado */
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), 
+              
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ 
 }
 .TituloContac{
   width: 50%;
@@ -328,8 +343,21 @@ footer{
 
 .secDosContac{
   display: flex;
-  background-color: black;
+  
   color: white;
+  display: flex;
+  
+
+  /* Fondo con imagen y gradiente para el difuminado */
+ 
+}
+.bodyContact{
+  /* Fondo con imagen y gradiente para el difuminado */
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), 
+              url(./images/FONDO.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .inputNombre{
   width: 50%;
