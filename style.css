@@ -6,6 +6,12 @@ h1, h2, h3 {
 
 body {
   font-family: 'Roboto', sans-serif;
+  /* Fondo con imagen y gradiente para el difuminado */
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), 
+              url(./images/FONDO.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 * {
@@ -28,7 +34,6 @@ body {
   margin: 0 auto;
   justify-content: space-between;
   height: auto;
-  background-color: black;
   margin-right: 5%;
 }
 
@@ -52,7 +57,7 @@ color: #c1ff72;
 
 
 header{
-  background-color: black;
+  
 }
 .logo {
   width: 200px;
@@ -80,7 +85,7 @@ p {
 .containerSec1 {
   display: flex;
   justify-content: center;
-  background-color: black;
+ 
 }
 
 .imagenHome {
@@ -94,13 +99,13 @@ p {
 
 .sectionDos {
   display: flex;
-  background-color: black;
+  
 }
 .sectionTres{
   display: flex;
   justify-content: start;
   margin-bottom: 50px;
-  background-color: black;
+  
 }
 .descripcion{
   text-align: start;
@@ -177,7 +182,7 @@ p {
 .sectionCinco{
   display: flex;
   justify-content: center;
-  background-color: black;
+  
   color: white;
 }
 .botonContactoHome{
@@ -201,7 +206,7 @@ a{
   text-decoration: none;
 }
 footer{
-  background-color: black;
+  
   color: white;
 }
 .iconos{
@@ -221,7 +226,9 @@ footer{
   margin-top: 12%;
   margin-bottom: 5%;
 }
-
+.secSeisHome{
+  background-color: white;
+}
 .subTrabajoDos{
   margin-left: 30%;
   margin-top: 12%;
@@ -266,6 +273,7 @@ footer{
 .secDosServ{
   display: flex;
  color: black;
+ background-color: white;
 }
 .subTitServ{
   color: black;
@@ -299,6 +307,7 @@ footer{
   width: 30%;
   margin-left: 35%;
   margin-top: 10%;
+  color: white;
   
 }
 .botonContactoServ{
@@ -328,9 +337,7 @@ footer{
   /* Fondo con imagen y gradiente para el difuminado */
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), 
               
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  
  
 }
 .TituloContac{
@@ -408,6 +415,9 @@ footer{
   margin-bottom: 5%;
   text-shadow:  -2px 2px 5px #c1ff72;
 }
+.sectionDosCompañia{
+  background-color: white;
+}
 .DescCompañia{
   color: black;
   text-align: start;
@@ -416,8 +426,7 @@ footer{
   margin-left: 15%;
   margin-bottom: 10%;
 }
-.sectionTresCompañia{
-  background-color: black;
+.sectionTresCompania{
   display: flex;
   justify-content: start;
   
