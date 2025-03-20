@@ -449,6 +449,7 @@ footer{
 
 }
 .imgCompañia{
+  width: 70%;
   margin-left: 18%;
 }
 
@@ -474,6 +475,9 @@ footer{
 .colorIconos{
   color: #c1ff72;
 }
+@media screen and (max-width: 1024px) {
+ 
+}
 @media screen and (max-width: 768px) {
   /* Estilos para teléfonos celulares */
   h1 {
@@ -484,9 +488,10 @@ footer{
   }
   .TituloHome{
     width: 70%;
+    font-size: xx-large;
   }
   .descripcion{
-    font-size: 14px;
+    font-size: x-large;
   }
   .subClientes{
     width: 70%;
@@ -505,12 +510,14 @@ footer{
     
   }
   .subTrabajo{
-    margin-left: 30%;
+    margin-left: 20%;
+    font-size: xx-large;
     
   }
   .subTrabajoDos{
     width: 45%;
     margin-left: 28%;
+    font-size: xx-large;
   }
   .iconos{
     font-size: 15px;
@@ -549,6 +556,7 @@ footer{
 }
 .TituloContac{
   width: 80%;
+  font-size: xx-large;
   margin-left: 15%;
 }
 .tituloServ{
@@ -595,6 +603,63 @@ margin-left: 25%;
   .secUnoServ{
     background-color: black;
   }
+  .imgCompañia{
+    width: 70%;
+    margin-left: 15%;
+  }
+  .DescCompañia{
+    color: black;
+    text-align: start;
+    font-size: x-large;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+  }
+  .tituloCompañia{
+    color: black;
+    font-size: xx-large;
+    width: 50%;
+    margin-left: 35%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-shadow:  -2px 2px 5px #c1ff72;
+  }
+  .tituloTrabajamos{
+    color: white;
+    width: 50%;
+    font-size: xx-large;
+    text-shadow:  -2px 2px 5px #c1ff72;
+    margin-left: 35%;
+    margin-top: 10%;
+  }
+  .DescTrabajamos{
+    text-align: start;
+    font-size: x-large;
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+  
+  }
+  .subTitServ{
+    color: black;
+    font-size: x-large;
+    margin-bottom: 5%;
+    margin-top: 15%;
+  }
+  .DescServ{
+    color: black;
+    margin-bottom: 15%;
+    font-size: large;
+  }
+  .subContactoServ{
+    font-size: x-large;
+    
+  }
+  .tituloServ{
+    margin-left: 20%;
+    font-size: xx-large;
+  }
 }
 @media screen and (max-width: 480px) {
   /* Estilos para teléfonos pequeños */
@@ -604,5 +669,9 @@ margin-left: 25%;
 
   .container {
     padding: 5px;
+  }
+  .imgCompañia{
+    width: 70%;
+    margin-left: 15%;
   }
 }
