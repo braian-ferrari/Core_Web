@@ -488,10 +488,10 @@ footer{
   }
   .TituloHome{
     width: 70%;
-    font-size: xx-large;
+    font-size: x-large;
   }
   .descripcion{
-    font-size: x-large;
+    font-size: large;
   }
   .subClientes{
     width: 70%;
@@ -511,13 +511,13 @@ footer{
   }
   .subTrabajo{
     margin-left: 20%;
-    font-size: xx-large;
+    font-size: x-large;
     
   }
   .subTrabajoDos{
     width: 45%;
     margin-left: 28%;
-    font-size: xx-large;
+    font-size: x-large;
   }
   .iconos{
     font-size: 15px;
@@ -556,7 +556,7 @@ footer{
 }
 .TituloContac{
   width: 80%;
-  font-size: xx-large;
+  font-size: x-large;
   margin-left: 15%;
 }
 .tituloServ{
@@ -610,14 +610,14 @@ margin-left: 25%;
   .DescCompañia{
     color: black;
     text-align: start;
-    font-size: x-large;
+    font-size: large;
     width: 70%;
     margin-left: 15%;
     margin-bottom: 10%;
   }
   .tituloCompañia{
     color: black;
-    font-size: xx-large;
+    font-size: x-large;
     width: 50%;
     margin-left: 35%;
     margin-top: 10%;
@@ -627,14 +627,14 @@ margin-left: 25%;
   .tituloTrabajamos{
     color: white;
     width: 50%;
-    font-size: xx-large;
+    font-size: x-large;
     text-shadow:  -2px 2px 5px #c1ff72;
     margin-left: 35%;
     margin-top: 10%;
   }
   .DescTrabajamos{
     text-align: start;
-    font-size: x-large;
+    font-size: large;
     width: 70%;
     margin-top: 5%;
     margin-left: 15%;
@@ -643,17 +643,17 @@ margin-left: 25%;
   }
   .subTitServ{
     color: black;
-    font-size: x-large;
+    font-size: large;
     margin-bottom: 5%;
     margin-top: 15%;
   }
   .DescServ{
     color: black;
     margin-bottom: 15%;
-    font-size: large;
+    font-size: medium;
   }
   .subContactoServ{
-    font-size: x-large;
+    font-size: large;
     
   }
   .tituloServ{
