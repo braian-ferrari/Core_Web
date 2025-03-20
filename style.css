@@ -598,7 +598,6 @@ footer{
 margin-left: 25%;
   }
   .tituloCompañia{
-    margin-left: 25%;
   }
   .secUnoServ{
     background-color: black;
@@ -618,19 +617,13 @@ margin-left: 25%;
   .tituloCompañia{
     color: black;
     font-size: x-large;
-    width: 50%;
-    margin-left: 35%;
-    margin-top: 10%;
-    margin-bottom: 5%;
     text-shadow:  -2px 2px 5px #c1ff72;
   }
   .tituloTrabajamos{
     color: white;
-    width: 50%;
     font-size: x-large;
     text-shadow:  -2px 2px 5px #c1ff72;
-    margin-left: 35%;
-    margin-top: 10%;
+
   }
   .DescTrabajamos{
     text-align: start;
